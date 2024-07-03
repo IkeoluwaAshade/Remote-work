@@ -1,0 +1,234 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: Epilogue;
+}
+
+.container {
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    color: hsl(0, 0%, 41%);
+    margin-top: 20px;
+    width: 95%;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 500px) {
+        /* background-color: green; */
+        width: 85%;
+    }
+}
+
+nav {
+    /* background-color: aqua; */
+    width: 500px;
+    margin-right: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+
+        li {
+            display: flex;
+            justify-content: space-between;
+            width: 80px;
+            cursor: pointer;
+            list-style-type: none;
+
+            select {
+                padding-left: 7px;
+                border: none;
+                background: none;
+            }
+        }
+    }
+}
+
+.CTA {
+    /* background-color: blueviolet; */
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login {
+    cursor: pointer;
+}
+
+.register {
+    /* background-color: aliceblue; */
+    border-style: solid;
+    padding: 7px 10px;
+    border-radius: 7px;
+    cursor: pointer;
+
+}
+
+.menu {
+    display: none;
+
+    img {
+        width: 25px;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 500px) {
+    nav {
+        display: none;
+    }
+
+    .CTA {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+}
+
+.wrapper {
+    /* background-color: green; */
+    width: 85%;
+    padding-top: 70px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    @media (max-width: 500px) {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.textBox {
+    /* background-color: orangered; */
+    width: 450px;
+    height: 400px;
+
+    h1 {
+       font-size: 32px; 
+       color: hsl(0, 0%, 8%);
+    }
+
+    p {
+        color: hsl(0, 0%, 41%);
+        font-size: 18px;
+        margin-bottom: 30px;
+        font-weight: 500;
+        line-height: 1.5;
+
+        @media (max-width: 500px){
+            /* background-color: green; */
+            /* max-width: 300px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center; */
+        }
+    }
+
+    button {
+        background-color: hsl(0, 0%, 8%);
+        color: hsl(0, 0%, 98%);
+        padding: 5px 7px;
+        border-radius: 7px;
+        margin-bottom: 70px;
+
+        @media (max-width: 500px) {
+            padding: 10px 18px;
+            border-radius: 12px;
+        }
+    }
+
+    @media (max-width: 500px) {
+        /* background-color: red; */
+        width: 350px;
+        text-align: center;
+    }
+}
+
+.mobile {
+    display: none;
+}
+
+@media (max-width: 500px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+}
+
+.companyLogos {
+    /* background-color: maroon; */
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 500px) {
+        /* background-color: red; */
+        width: 350px;
+
+        img {
+            width: 15%;
+            /* height: 50px; */
+        }
+    }
+}
+
+picture {
+    width: 400px;
+
+    img {
+        width: 100%;
+    }
+
+    @media (max-width: 500px) {
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+}
+
+footer {
+    background-color: #123;
+    color: hsl(0, 0%, 98%);
+    width: 100%;
+    font-size: 11px;
+    text-align: center;
+
+
+    a {
+        text-decoration: none;
+        color: skyblue;
+        cursor: pointer;
+    }
+
+    span {
+        color: skyblue;
+    }
+
+}

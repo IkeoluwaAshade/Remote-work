@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <link rel="stylesheet" href="./styles.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body class="mainBackground">
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="./assets/logo.svg" alt="Our Logo Image">
+            </div>
+
+            <nav>
+                <ul>
+                    <li>Features</li>
+                    <select name="" id=""></select>
+                </ul>
+                <ul>
+                    <li>Company</li>
+                    <select name="" id=""></select>
+                </ul>
+                <ul>
+                    <li>Careers</li>
+                </ul>
+                <ul>
+                    <li>About</li>
+                </ul>
+            </nav>
+
+            <div class="CTA">
+                <div class="login">Login</div>
+                <div class="register">Register</div>
+            </div>
+
+            <div class="menu">
+                <img src="./assets/menus.png" alt="Hamburger menu icon">
+            </div>
+        </header>
+
+        <section class="wrapper">
+            <div class="textBox">
+                <h1 class="desktop">Make <br/> remote work</h1>
+                <h1 class="mobile">Make remote work</h1>
+                <p>
+                    Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.
+                </p>
+
+                <button>Learn more</button>
+
+                <div class="companyLogos">
+                    <img src="./assets/client-databiz.svg" alt="Logo of Databiz Company">
+
+                    <img src="./assets/client-audiophile.svg" alt="Logo of Audiophile Company">
+
+                    <img src="./assets/client-meet.svg" alt="Logo of Meet Company">
+
+                    <img src="./assets/client-maker.svg" alt="Logo of Maker Company">
+                </div>
+            </div>
+
+            <picture class="heroImage">
+                <source srcset="./assets/image-hero-mobile.png" media="(max-width: 500px)">
+
+                <source srcset="./assets/image-hero-desktop.png" media="(max-width: 1440px)">
+
+                <img src="./assets/image-hero-desktop.png" alt="Hero Image">
+            </picture>
+
+        </section>
+
+        <footer>
+            <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>, 
+            Coded by <a href="https://github.com/IkeoluwaAshade" target="_blank">Ikeoluwa Ashade</a>.</p>
+
+            <p>built with <span>html</span>, styled with <span>css</span>. Hosted on <a href="https://www.netlify.com//" target="_blank">Netlify</a></p>
+        </footer>
+    </div>
+    
+</body>
+</html>
