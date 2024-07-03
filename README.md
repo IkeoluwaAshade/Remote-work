@@ -1,0 +1,2 @@
+- Desktop view ![](https://github.com/IkeoluwaAshade/remote-work/blob/main/design/desktop-design.jpg)
+- Mobile view ![](https://github.com/IkeoluwaAshade/remote-work/blob/main/design/mobile-design.jpg)
